@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Orange HRM project]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Login Test with valid credentials(failed)">
+    <classes>
+      <class name="com.orangehrm.com.orangehrm.Login">
+        <methods>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="ForgotPasswordValidUsernameCheck"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrm.com.orangehrm.Login -->
+    </classes>
+  </test> <!-- Login Test with valid credentials(failed) -->
+  <test thread-count="1" name="Add New Employee(failed)">
+    <classes>
+      <class name="com.orangehrm.com.orangehrm.AddEmployeePIM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="LoginforaddNewEmployee"/>
+          <include name="ValidateEditEmployeeWithSpecialCharecter"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="addEmployeWithInValidCharecters"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrm.com.orangehrm.AddEmployeePIM -->
+    </classes>
+  </test> <!-- Add New Employee(failed) -->
+  <test thread-count="1" name="ADMIN USER ROLE ASSIGN(failed)">
+    <classes>
+      <class name="com.orangehrm.com.orangehrm.AdminAssignRoles">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginforAssignRoles"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="EditUserRolewithInvalidCharacters"/>
+          <include name="AssignRoleswithSpecialCharectors"/>
+        </methods>
+      </class> <!-- com.orangehrm.com.orangehrm.AdminAssignRoles -->
+    </classes>
+  </test> <!-- ADMIN USER ROLE ASSIGN(failed) -->
+</suite> <!-- Failed suite [Orange HRM project] -->

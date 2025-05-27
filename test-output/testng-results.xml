@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="15" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T20:09:50 IST" name="Orange HRM project" finished-at="2025-05-15T20:13:42 IST" duration-ms="232039">
+    <groups>
+    </groups>
+    <test started-at="2025-05-15T20:09:50 IST" name="Login Test with valid credentials" finished-at="2025-05-15T20:10:49 IST" duration-ms="58375">
+      <class name="com.orangehrm.com.orangehrm.Login">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:09:50 IST" name="setUp" finished-at="2025-05-15T20:09:56 IST" duration-ms="5576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.ForgotPasswordCancelButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ForgotPasswordCancelButton()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:09:56 IST" name="ForgotPasswordCancelButton" finished-at="2025-05-15T20:09:58 IST" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordCancelButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:09:58 IST" name="tearDown" finished-at="2025-05-15T20:09:59 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPasswordCancelButton status=SUCCESS method=Login.ForgotPasswordCancelButton()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:09:59 IST" name="tearDown" finished-at="2025-05-15T20:09:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:09:59 IST" name="setUp" finished-at="2025-05-15T20:10:03 IST" duration-ms="4417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.ForgotPasswordValidUsernameCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ForgotPasswordValidUsernameCheck()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:03 IST" name="ForgotPasswordValidUsernameCheck" finished-at="2025-05-15T20:10:06 IST" duration-ms="3355" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Bug: Reset password message shown for invalid username expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Bug: Reset password message shown for invalid username expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.orangehrm.com.orangehrm.Login.ForgotPasswordValidUsernameCheck(Login.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordValidUsernameCheck -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:06 IST" name="tearDown" finished-at="2025-05-15T20:10:07 IST" duration-ms="477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPasswordValidUsernameCheck status=FAILURE method=Login.ForgotPasswordValidUsernameCheck()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:07 IST" name="tearDown" finished-at="2025-05-15T20:10:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:07 IST" name="setUp" finished-at="2025-05-15T20:10:11 IST" duration-ms="4411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.ForgotPasswordwithValidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ForgotPasswordwithValidUsername()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:11 IST" name="ForgotPasswordwithValidUsername" finished-at="2025-05-15T20:10:15 IST" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordwithValidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:15 IST" name="tearDown" finished-at="2025-05-15T20:10:15 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPasswordwithValidUsername status=SUCCESS method=Login.ForgotPasswordwithValidUsername()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:15 IST" name="tearDown" finished-at="2025-05-15T20:10:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:15 IST" name="setUp" finished-at="2025-05-15T20:10:19 IST" duration-ms="4313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginBothInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OrangeHrmLoginBothInvalidCredentials()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:19 IST" name="OrangeHrmLoginBothInvalidCredentials" finished-at="2025-05-15T20:10:22 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmLoginBothInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:22 IST" name="tearDown" finished-at="2025-05-15T20:10:22 IST" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrmLoginBothInvalidCredentials status=SUCCESS method=Login.OrangeHrmLoginBothInvalidCredentials()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:22 IST" name="tearDown" finished-at="2025-05-15T20:10:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:22 IST" name="setUp" finished-at="2025-05-15T20:10:26 IST" duration-ms="4245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginEmptyCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OrangeHrmLoginEmptyCredentials()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:26 IST" name="OrangeHrmLoginEmptyCredentials" finished-at="2025-05-15T20:10:27 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmLoginEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:27 IST" name="tearDown" finished-at="2025-05-15T20:10:27 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrmLoginEmptyCredentials status=SUCCESS method=Login.OrangeHrmLoginEmptyCredentials()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:27 IST" name="tearDown" finished-at="2025-05-15T20:10:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:27 IST" name="setUp" finished-at="2025-05-15T20:10:32 IST" duration-ms="4270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginInvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OrangeHrmLoginInvalidPassword()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:32 IST" name="OrangeHrmLoginInvalidPassword" finished-at="2025-05-15T20:10:34 IST" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmLoginInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:34 IST" name="tearDown" finished-at="2025-05-15T20:10:34 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrmLoginInvalidPassword status=SUCCESS method=Login.OrangeHrmLoginInvalidPassword()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:34 IST" name="tearDown" finished-at="2025-05-15T20:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:34 IST" name="setUp" finished-at="2025-05-15T20:10:39 IST" duration-ms="4361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginInvalidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OrangeHrmLoginInvalidUsername()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:39 IST" name="OrangeHrmLoginInvalidUsername" finished-at="2025-05-15T20:10:41 IST" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmLoginInvalidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:41 IST" name="tearDown" finished-at="2025-05-15T20:10:41 IST" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrmLoginInvalidUsername status=SUCCESS method=Login.OrangeHrmLoginInvalidUsername()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:41 IST" name="tearDown" finished-at="2025-05-15T20:10:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:41 IST" name="setUp" finished-at="2025-05-15T20:10:46 IST" duration-ms="4382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OrangeHrmLoginValidCredentials()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:46 IST" name="OrangeHrmLoginValidCredentials" finished-at="2025-05-15T20:10:48 IST" duration-ms="2617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHrmLoginValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:48 IST" name="tearDown" finished-at="2025-05-15T20:10:49 IST" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHrmLoginValidCredentials status=SUCCESS method=Login.OrangeHrmLoginValidCredentials()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.Login@6aaceffd]" started-at="2025-05-15T20:10:49 IST" name="tearDown" finished-at="2025-05-15T20:10:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.com.orangehrm.Login -->
+    </test> <!-- Login Test with valid credentials -->
+    <test started-at="2025-05-15T20:10:49 IST" name="Add New Employee" finished-at="2025-05-15T20:12:08 IST" duration-ms="78999">
+      <class name="com.orangehrm.com.orangehrm.AddEmployeePIM">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:10:49 IST" name="setUp" finished-at="2025-05-15T20:10:53 IST" duration-ms="4313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AddEmployeePIM.addNewEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginforaddNewEmployee()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:10:53 IST" name="LoginforaddNewEmployee" finished-at="2025-05-15T20:10:57 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginforaddNewEmployee -->
+        <test-method signature="addNewEmployee()[pri:1, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:10:57 IST" name="addNewEmployee" finished-at="2025-05-15T20:11:03 IST" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployee -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:03 IST" name="tearDown" finished-at="2025-05-15T20:11:03 IST" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewEmployee status=SUCCESS method=AddEmployeePIM.addNewEmployee()[pri:1, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:03 IST" name="tearDown" finished-at="2025-05-15T20:11:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:03 IST" name="setUp" finished-at="2025-05-15T20:11:08 IST" duration-ms="4323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AddEmployeePIM.ViewEmployeedetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginforaddNewEmployee()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:08 IST" name="LoginforaddNewEmployee" finished-at="2025-05-15T20:11:11 IST" duration-ms="3679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginforaddNewEmployee -->
+        <test-method signature="ViewEmployeedetails()[pri:2, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:11 IST" name="ViewEmployeedetails" finished-at="2025-05-15T20:11:13 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewEmployeedetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:13 IST" name="tearDown" finished-at="2025-05-15T20:11:13 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewEmployeedetails status=SUCCESS method=AddEmployeePIM.ViewEmployeedetails()[pri:2, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:13 IST" name="tearDown" finished-at="2025-05-15T20:11:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:13 IST" name="setUp" finished-at="2025-05-15T20:11:17 IST" duration-ms="4352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AddEmployeePIM.addEmployeWithInValidCharecters() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginforaddNewEmployee()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:17 IST" name="LoginforaddNewEmployee" finished-at="2025-05-15T20:11:21 IST" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginforaddNewEmployee -->
+        <test-method signature="addEmployeWithInValidCharecters()[pri:3, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:21 IST" name="addEmployeWithInValidCharecters" finished-at="2025-05-15T20:11:28 IST" duration-ms="7287" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Bug: Form accepted invalid characters in name fields and navigated to Personal Details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Bug: Form accepted invalid characters in name fields and navigated to Personal Details.
+at org.testng.Assert.fail(Assert.java:111)
+at com.orangehrm.com.orangehrm.AddEmployeePIM.addEmployeWithInValidCharecters(AddEmployeePIM.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeWithInValidCharecters -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:28 IST" name="tearDown" finished-at="2025-05-15T20:11:30 IST" duration-ms="2075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmployeWithInValidCharecters status=FAILURE method=AddEmployeePIM.addEmployeWithInValidCharecters()[pri:3, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:30 IST" name="tearDown" finished-at="2025-05-15T20:11:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:30 IST" name="setUp" finished-at="2025-05-15T20:11:35 IST" duration-ms="4335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AddEmployeePIM.EditEmployee() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginforaddNewEmployee()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:35 IST" name="LoginforaddNewEmployee" finished-at="2025-05-15T20:11:38 IST" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginforaddNewEmployee -->
+        <test-method signature="EditEmployee()[pri:4, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:38 IST" name="EditEmployee" finished-at="2025-05-15T20:11:43 IST" duration-ms="4611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEmployee -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:43 IST" name="tearDown" finished-at="2025-05-15T20:11:43 IST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditEmployee status=SUCCESS method=AddEmployeePIM.EditEmployee()[pri:4, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:43 IST" name="tearDown" finished-at="2025-05-15T20:11:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:43 IST" name="setUp" finished-at="2025-05-15T20:11:46 IST" duration-ms="2341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AddEmployeePIM.ValidateEditEmployeeWithSpecialCharecter() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginforaddNewEmployee()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:46 IST" name="LoginforaddNewEmployee" finished-at="2025-05-15T20:11:51 IST" duration-ms="5726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginforaddNewEmployee -->
+        <test-method signature="ValidateEditEmployeeWithSpecialCharecter()[pri:5, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:51 IST" name="ValidateEditEmployeeWithSpecialCharecter" finished-at="2025-05-15T20:11:56 IST" duration-ms="4637" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug: Form accepted invalid characters in name fields,Employee id and navigated to Personal Details. expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug: Form accepted invalid characters in name fields,Employee id and navigated to Personal Details. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.orangehrm.com.orangehrm.AddEmployeePIM.ValidateEditEmployeeWithSpecialCharecter(AddEmployeePIM.java:145)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateEditEmployeeWithSpecialCharecter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:56 IST" name="tearDown" finished-at="2025-05-15T20:11:57 IST" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateEditEmployeeWithSpecialCharecter status=FAILURE method=AddEmployeePIM.ValidateEditEmployeeWithSpecialCharecter()[pri:5, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:57 IST" name="tearDown" finished-at="2025-05-15T20:11:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:11:57 IST" name="setUp" finished-at="2025-05-15T20:12:01 IST" duration-ms="4347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AddEmployeePIM.DeleteEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LoginforaddNewEmployee()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:12:01 IST" name="LoginforaddNewEmployee" finished-at="2025-05-15T20:12:05 IST" duration-ms="4224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginforaddNewEmployee -->
+        <test-method signature="DeleteEmployee()[pri:6, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:12:05 IST" name="DeleteEmployee" finished-at="2025-05-15T20:12:07 IST" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEmployee -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:12:07 IST" name="tearDown" finished-at="2025-05-15T20:12:08 IST" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteEmployee status=SUCCESS method=AddEmployeePIM.DeleteEmployee()[pri:6, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AddEmployeePIM@76f2bbc1]" started-at="2025-05-15T20:12:08 IST" name="tearDown" finished-at="2025-05-15T20:12:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.com.orangehrm.AddEmployeePIM -->
+    </test> <!-- Add New Employee -->
+    <test started-at="2025-05-15T20:12:08 IST" name="ADMIN USER ROLE ASSIGN" finished-at="2025-05-15T20:13:34 IST" duration-ms="86162">
+      <class name="com.orangehrm.com.orangehrm.AdminAssignRoles">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:08 IST" name="setUp" finished-at="2025-05-15T20:12:12 IST" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AdminAssignRoles.addNewEmployeeForAdminUserRole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginforAssignRoles()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:12 IST" name="loginforAssignRoles" finished-at="2025-05-15T20:12:13 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforAssignRoles -->
+        <test-method signature="addNewEmployeeForAdminUserRole()[pri:1, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:13 IST" name="addNewEmployeeForAdminUserRole" finished-at="2025-05-15T20:12:22 IST" duration-ms="9126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeForAdminUserRole -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:22 IST" name="tearDown" finished-at="2025-05-15T20:12:22 IST" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewEmployeeForAdminUserRole status=SUCCESS method=AdminAssignRoles.addNewEmployeeForAdminUserRole()[pri:1, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:22 IST" name="tearDown" finished-at="2025-05-15T20:12:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:22 IST" name="setUp" finished-at="2025-05-15T20:12:27 IST" duration-ms="4365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AdminAssignRoles.AssignandViewRoles()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginforAssignRoles()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:27 IST" name="loginforAssignRoles" finished-at="2025-05-15T20:12:28 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforAssignRoles -->
+        <test-method signature="AssignandViewRoles()[pri:2, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:28 IST" name="AssignandViewRoles" finished-at="2025-05-15T20:12:42 IST" duration-ms="14683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignandViewRoles -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:42 IST" name="tearDown" finished-at="2025-05-15T20:12:43 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssignandViewRoles status=SUCCESS method=AdminAssignRoles.AssignandViewRoles()[pri:2, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:43 IST" name="tearDown" finished-at="2025-05-15T20:12:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:43 IST" name="setUp" finished-at="2025-05-15T20:12:47 IST" duration-ms="4551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AdminAssignRoles.EditUserRolewithInvalidCharacters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginforAssignRoles()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:47 IST" name="loginforAssignRoles" finished-at="2025-05-15T20:12:48 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforAssignRoles -->
+        <test-method signature="EditUserRolewithInvalidCharacters()[pri:3, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:12:48 IST" name="EditUserRolewithInvalidCharacters" finished-at="2025-05-15T20:13:00 IST" duration-ms="11697" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug detected: User Role Assigned with Special Charectors.No Validation did not expect [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug detected: User Role Assigned with Special Charectors.No Validation did not expect [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2217)
+at com.orangehrm.com.orangehrm.AdminAssignRoles.EditUserRolewithInvalidCharacters(AdminAssignRoles.java:136)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditUserRolewithInvalidCharacters -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:00 IST" name="tearDown" finished-at="2025-05-15T20:13:02 IST" duration-ms="2485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditUserRolewithInvalidCharacters status=FAILURE method=AdminAssignRoles.EditUserRolewithInvalidCharacters()[pri:3, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:02 IST" name="tearDown" finished-at="2025-05-15T20:13:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:02 IST" name="setUp" finished-at="2025-05-15T20:13:07 IST" duration-ms="4369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AdminAssignRoles.AssignRoleswithSpecialCharectors()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginforAssignRoles()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:07 IST" name="loginforAssignRoles" finished-at="2025-05-15T20:13:08 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforAssignRoles -->
+        <test-method signature="AssignRoleswithSpecialCharectors()[pri:4, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:08 IST" name="AssignRoleswithSpecialCharectors" finished-at="2025-05-15T20:13:19 IST" duration-ms="11532" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Bug detected: User Role Assigned with Special Charectors.No Validation did not expect [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Bug detected: User Role Assigned with Special Charectors.No Validation did not expect [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2217)
+at com.orangehrm.com.orangehrm.AdminAssignRoles.AssignRoleswithSpecialCharectors(AdminAssignRoles.java:184)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignRoleswithSpecialCharectors -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:19 IST" name="tearDown" finished-at="2025-05-15T20:13:22 IST" duration-ms="2478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AssignRoleswithSpecialCharectors status=FAILURE method=AdminAssignRoles.AssignRoleswithSpecialCharectors()[pri:4, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:22 IST" name="tearDown" finished-at="2025-05-15T20:13:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:22 IST" name="setUp" finished-at="2025-05-15T20:13:26 IST" duration-ms="4319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.AdminAssignRoles.DeleteUserRole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginforAssignRoles()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:26 IST" name="loginforAssignRoles" finished-at="2025-05-15T20:13:27 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforAssignRoles -->
+        <test-method signature="DeleteUserRole()[pri:6, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:27 IST" name="DeleteUserRole" finished-at="2025-05-15T20:13:34 IST" duration-ms="6685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUserRole -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:34 IST" name="tearDown" finished-at="2025-05-15T20:13:34 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteUserRole status=SUCCESS method=AdminAssignRoles.DeleteUserRole()[pri:6, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.AdminAssignRoles@524d6d96]" started-at="2025-05-15T20:13:34 IST" name="tearDown" finished-at="2025-05-15T20:13:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.com.orangehrm.AdminAssignRoles -->
+    </test> <!-- ADMIN USER ROLE ASSIGN -->
+    <test started-at="2025-05-15T20:13:34 IST" name="LOG OUT" finished-at="2025-05-15T20:13:42 IST" duration-ms="8423">
+      <class name="com.orangehrm.com.orangehrm.LogOut">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.orangehrm.com.orangehrm.LogOut@1bb266b3]" started-at="2025-05-15T20:09:50 IST" name="startReport" finished-at="2025-05-15T20:09:50 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.com.orangehrm.LogOut@1bb266b3]" started-at="2025-05-15T20:13:34 IST" name="setUp" finished-at="2025-05-15T20:13:38 IST" duration-ms="4314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.com.orangehrm.LogOut.Logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginforLogout()[pri:0, instance:com.orangehrm.com.orangehrm.LogOut@1bb266b3]" started-at="2025-05-15T20:13:38 IST" name="loginforLogout" finished-at="2025-05-15T20:13:39 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforLogout -->
+        <test-method signature="Logout()[pri:0, instance:com.orangehrm.com.orangehrm.LogOut@1bb266b3]" started-at="2025-05-15T20:13:39 IST" name="Logout" finished-at="2025-05-15T20:13:42 IST" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.com.orangehrm.LogOut@1bb266b3]" started-at="2025-05-15T20:13:42 IST" name="tearDown" finished-at="2025-05-15T20:13:42 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.orangehrm.com.orangehrm.LogOut@1bb266b3]" started-at="2025-05-15T20:13:42 IST" name="endReport" finished-at="2025-05-15T20:13:43 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.orangehrm.com.orangehrm.LogOut -->
+    </test> <!-- LOG OUT -->
+  </suite> <!-- Orange HRM project -->
+</testng-results>

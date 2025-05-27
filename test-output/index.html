@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Orange_HRM_project" class="navigator-link">
+              <span class="suite-name border-failed">Orange HRM project</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Orange_HRM_project" class="navigator-link ">
+                    <span>C:\Users\joe_j\eclipse-workspace\com.orangehrm\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Orange_HRM_project" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Orange_HRM_project" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Orange_HRM_project" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Orange_HRM_project" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Orange_HRM_project" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Orange_HRM_project" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 5 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Orange_HRM_project" class="hide-methods failed suite-Orange_HRM_project"> (hide)</a> <!-- hide-methods failed suite-Orange_HRM_project -->
+                      <a href="#" panel-name="suite-Orange_HRM_project" class="show-methods failed suite-Orange_HRM_project"> (show)</a> <!-- show-methods failed suite-Orange_HRM_project -->
+                    </span>
+                    <div class="method-list-content failed suite-Orange_HRM_project">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AdminAssignRoles" class="method navigator-link" hash-for-method="AssignRoleswithSpecialCharectors">AssignRoleswithSpecialCharectors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AdminAssignRoles" class="method navigator-link" hash-for-method="EditUserRolewithInvalidCharacters">EditUserRolewithInvalidCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="ForgotPasswordValidUsernameCheck">ForgotPasswordValidUsernameCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AddEmployeePIM" class="method navigator-link" hash-for-method="ValidateEditEmployeeWithSpecialCharecter">ValidateEditEmployeeWithSpecialCharecter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AddEmployeePIM" class="method navigator-link" hash-for-method="addEmployeWithInValidCharecters">addEmployeWithInValidCharecters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Orange_HRM_project -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Orange_HRM_project" class="hide-methods passed suite-Orange_HRM_project"> (hide)</a> <!-- hide-methods passed suite-Orange_HRM_project -->
+                      <a href="#" panel-name="suite-Orange_HRM_project" class="show-methods passed suite-Orange_HRM_project"> (show)</a> <!-- show-methods passed suite-Orange_HRM_project -->
+                    </span>
+                    <div class="method-list-content passed suite-Orange_HRM_project">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AdminAssignRoles" class="method navigator-link" hash-for-method="AssignandViewRoles">AssignandViewRoles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AddEmployeePIM" class="method navigator-link" hash-for-method="DeleteEmployee">DeleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AdminAssignRoles" class="method navigator-link" hash-for-method="DeleteUserRole">DeleteUserRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AddEmployeePIM" class="method navigator-link" hash-for-method="EditEmployee">EditEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="ForgotPasswordCancelButton">ForgotPasswordCancelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="ForgotPasswordwithValidUsername">ForgotPasswordwithValidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.LogOut" class="method navigator-link" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="OrangeHrmLoginBothInvalidCredentials">OrangeHrmLoginBothInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="OrangeHrmLoginEmptyCredentials">OrangeHrmLoginEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="OrangeHrmLoginInvalidPassword">OrangeHrmLoginInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="OrangeHrmLoginInvalidUsername">OrangeHrmLoginInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.Login" class="method navigator-link" hash-for-method="OrangeHrmLoginValidCredentials">OrangeHrmLoginValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AddEmployeePIM" class="method navigator-link" hash-for-method="ViewEmployeedetails">ViewEmployeedetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AddEmployeePIM" class="method navigator-link" hash-for-method="addNewEmployee">addNewEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Orange_HRM_project" title="com.orangehrm.com.orangehrm.AdminAssignRoles" class="method navigator-link" hash-for-method="addNewEmployeeForAdminUserRole">addNewEmployeeForAdminUserRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Orange_HRM_project -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Orange_HRM_project" class="panel Orange_HRM_project">
+          <div class="suite-Orange_HRM_project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgotPasswordValidUsernameCheck">
+                  </a> <!-- ForgotPasswordValidUsernameCheck -->
+                  <span class="method-name">ForgotPasswordValidUsernameCheck</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Bug: Reset password message shown for invalid username expected [true] but found [false]
+	at com.orangehrm.com.orangehrm.Login.ForgotPasswordValidUsernameCheck(Login.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-failed -->
+          <div class="suite-Orange_HRM_project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.AddEmployeePIM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateEditEmployeeWithSpecialCharecter">
+                  </a> <!-- ValidateEditEmployeeWithSpecialCharecter -->
+                  <span class="method-name">ValidateEditEmployeeWithSpecialCharecter</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug: Form accepted invalid characters in name fields,Employee id and navigated to Personal Details. expected [false] but found [true]
+	at com.orangehrm.com.orangehrm.AddEmployeePIM.ValidateEditEmployeeWithSpecialCharecter(AddEmployeePIM.java:145)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployeWithInValidCharecters">
+                  </a> <!-- addEmployeWithInValidCharecters -->
+                  <span class="method-name">addEmployeWithInValidCharecters</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Bug: Form accepted invalid characters in name fields and navigated to Personal Details.
+	at com.orangehrm.com.orangehrm.AddEmployeePIM.addEmployeWithInValidCharecters(AddEmployeePIM.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-failed -->
+          <div class="suite-Orange_HRM_project-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.AdminAssignRoles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AssignRoleswithSpecialCharectors">
+                  </a> <!-- AssignRoleswithSpecialCharectors -->
+                  <span class="method-name">AssignRoleswithSpecialCharectors</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug detected: User Role Assigned with Special Charectors.No Validation did not expect [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]
+	at com.orangehrm.com.orangehrm.AdminAssignRoles.AssignRoleswithSpecialCharectors(AdminAssignRoles.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditUserRolewithInvalidCharacters">
+                  </a> <!-- EditUserRolewithInvalidCharacters -->
+                  <span class="method-name">EditUserRolewithInvalidCharacters</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug detected: User Role Assigned with Special Charectors.No Validation did not expect [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers] but found [https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers]
+	at com.orangehrm.com.orangehrm.AdminAssignRoles.EditUserRolewithInvalidCharacters(AdminAssignRoles.java:136)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-failed -->
+          <div class="suite-Orange_HRM_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.LogOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-passed -->
+          <div class="suite-Orange_HRM_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgotPasswordCancelButton">
+                  </a> <!-- ForgotPasswordCancelButton -->
+                  <span class="method-name">ForgotPasswordCancelButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgotPasswordwithValidUsername">
+                  </a> <!-- ForgotPasswordwithValidUsername -->
+                  <span class="method-name">ForgotPasswordwithValidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrangeHrmLoginBothInvalidCredentials">
+                  </a> <!-- OrangeHrmLoginBothInvalidCredentials -->
+                  <span class="method-name">OrangeHrmLoginBothInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrangeHrmLoginEmptyCredentials">
+                  </a> <!-- OrangeHrmLoginEmptyCredentials -->
+                  <span class="method-name">OrangeHrmLoginEmptyCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrangeHrmLoginInvalidPassword">
+                  </a> <!-- OrangeHrmLoginInvalidPassword -->
+                  <span class="method-name">OrangeHrmLoginInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrangeHrmLoginInvalidUsername">
+                  </a> <!-- OrangeHrmLoginInvalidUsername -->
+                  <span class="method-name">OrangeHrmLoginInvalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrangeHrmLoginValidCredentials">
+                  </a> <!-- OrangeHrmLoginValidCredentials -->
+                  <span class="method-name">OrangeHrmLoginValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-passed -->
+          <div class="suite-Orange_HRM_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.AddEmployeePIM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmployee">
+                  </a> <!-- DeleteEmployee -->
+                  <span class="method-name">DeleteEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditEmployee">
+                  </a> <!-- EditEmployee -->
+                  <span class="method-name">EditEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewEmployeedetails">
+                  </a> <!-- ViewEmployeedetails -->
+                  <span class="method-name">ViewEmployeedetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployee">
+                  </a> <!-- addNewEmployee -->
+                  <span class="method-name">addNewEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-passed -->
+          <div class="suite-Orange_HRM_project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.com.orangehrm.AdminAssignRoles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AssignandViewRoles">
+                  </a> <!-- AssignandViewRoles -->
+                  <span class="method-name">AssignandViewRoles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteUserRole">
+                  </a> <!-- DeleteUserRole -->
+                  <span class="method-name">DeleteUserRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeForAdminUserRole">
+                  </a> <!-- addNewEmployeeForAdminUserRole -->
+                  <span class="method-name">addNewEmployeeForAdminUserRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Orange_HRM_project-class-passed -->
+        </div> <!-- panel Orange_HRM_project -->
+        <div panel-name="test-xml-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\joe_j\eclipse-workspace\com.orangehrm\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Orange HRM project&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Login Test with valid credentials&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.com.orangehrm.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test with valid credentials --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Add New Employee&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.com.orangehrm.AddEmployeePIM&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add New Employee --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ADMIN USER ROLE ASSIGN&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.com.orangehrm.AdminAssignRoles&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ADMIN USER ROLE ASSIGN --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;LOG OUT&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.com.orangehrm.LogOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LOG OUT --&gt;
+&lt;/suite&gt; &lt;!-- Orange HRM project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Orange HRM project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test with valid credentials (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add New Employee (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ADMIN USER ROLE ASSIGN (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LOG OUT (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Orange HRM project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Orange HRM project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Orange_HRM_project');
+function tableData_Orange_HRM_project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AssignandViewRoles')
+data.setCell(0, 2, 'com.orangehrm.com.orangehrm.AdminAssignRoles')
+data.setCell(0, 3, 14683);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EditUserRolewithInvalidCharacters')
+data.setCell(1, 2, 'com.orangehrm.com.orangehrm.AdminAssignRoles')
+data.setCell(1, 3, 11697);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AssignRoleswithSpecialCharectors')
+data.setCell(2, 2, 'com.orangehrm.com.orangehrm.AdminAssignRoles')
+data.setCell(2, 3, 11532);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addNewEmployeeForAdminUserRole')
+data.setCell(3, 2, 'com.orangehrm.com.orangehrm.AdminAssignRoles')
+data.setCell(3, 3, 9126);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addEmployeWithInValidCharecters')
+data.setCell(4, 2, 'com.orangehrm.com.orangehrm.AddEmployeePIM')
+data.setCell(4, 3, 7287);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DeleteUserRole')
+data.setCell(5, 2, 'com.orangehrm.com.orangehrm.AdminAssignRoles')
+data.setCell(5, 3, 6685);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addNewEmployee')
+data.setCell(6, 2, 'com.orangehrm.com.orangehrm.AddEmployeePIM')
+data.setCell(6, 3, 6283);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidateEditEmployeeWithSpecialCharecter')
+data.setCell(7, 2, 'com.orangehrm.com.orangehrm.AddEmployeePIM')
+data.setCell(7, 3, 4637);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'EditEmployee')
+data.setCell(8, 2, 'com.orangehrm.com.orangehrm.AddEmployeePIM')
+data.setCell(8, 3, 4611);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ForgotPasswordwithValidUsername')
+data.setCell(9, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(9, 3, 3588);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ForgotPasswordValidUsernameCheck')
+data.setCell(10, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(10, 3, 3355);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Logout')
+data.setCell(11, 2, 'com.orangehrm.com.orangehrm.LogOut')
+data.setCell(11, 3, 2966);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'OrangeHrmLoginValidCredentials')
+data.setCell(12, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(12, 3, 2617);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'OrangeHrmLoginInvalidPassword')
+data.setCell(13, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(13, 3, 2523);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ForgotPasswordCancelButton')
+data.setCell(14, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(14, 3, 2375);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DeleteEmployee')
+data.setCell(15, 2, 'com.orangehrm.com.orangehrm.AddEmployeePIM')
+data.setCell(15, 3, 2325);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'OrangeHrmLoginInvalidUsername')
+data.setCell(16, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(16, 3, 2228);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'OrangeHrmLoginBothInvalidCredentials')
+data.setCell(17, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(17, 3, 2215);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ViewEmployeedetails')
+data.setCell(18, 2, 'com.orangehrm.com.orangehrm.AddEmployeePIM')
+data.setCell(18, 3, 1473);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'OrangeHrmLoginEmptyCredentials')
+data.setCell(19, 2, 'com.orangehrm.com.orangehrm.Login')
+data.setCell(19, 3, 967);
+window.suiteTableData['Orange_HRM_project']= { tableData: data, tableDiv: 'times-div-Orange_HRM_project'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Orange_HRM_project">
+              </div> <!-- times-div-Orange_HRM_project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Orange HRM project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Orange_HRM_project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.com.orangehrm.LogOut</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.com.orangehrm.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.ForgotPasswordCancelButton())</span>
+                <span class="method-start">563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ForgotPasswordCancelButton</span>
+                <span class="method-start">6140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForgotPasswordCancelButton status=SUCCESS method=Login.ForgotPasswordCancelButton()...)</span>
+                <span class="method-start">8520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.ForgotPasswordValidUsernameCheck())</span>
+                <span class="method-start">8802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ForgotPasswordValidUsernameCheck</span>
+                <span class="method-start">13220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForgotPasswordValidUsernameCheck status=FAILURE method=Login.ForgotPasswordValidUse...)</span>
+                <span class="method-start">16581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.ForgotPasswordwithValidUsername())</span>
+                <span class="method-start">17060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ForgotPasswordwithValidUsername</span>
+                <span class="method-start">21471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ForgotPasswordwithValidUsername status=SUCCESS method=Login.ForgotPasswordwithValid...)</span>
+                <span class="method-start">25061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginBothInvalidCredentials())</span>
+                <span class="method-start">25400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrangeHrmLoginBothInvalidCredentials</span>
+                <span class="method-start">29713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OrangeHrmLoginBothInvalidCredentials status=SUCCESS method=Login.OrangeHrmLoginBoth...)</span>
+                <span class="method-start">31929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginEmptyCredentials())</span>
+                <span class="method-start">32191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrangeHrmLoginEmptyCredentials</span>
+                <span class="method-start">36436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OrangeHrmLoginEmptyCredentials status=SUCCESS method=Login.OrangeHrmLoginEmptyCrede...)</span>
+                <span class="method-start">37405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginInvalidPassword())</span>
+                <span class="method-start">37655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrangeHrmLoginInvalidPassword</span>
+                <span class="method-start">41926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OrangeHrmLoginInvalidPassword status=SUCCESS method=Login.OrangeHrmLoginInvalidPass...)</span>
+                <span class="method-start">44450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginInvalidUsername())</span>
+                <span class="method-start">44682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrangeHrmLoginInvalidUsername</span>
+                <span class="method-start">49043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OrangeHrmLoginInvalidUsername status=SUCCESS method=Login.OrangeHrmLoginInvalidUser...)</span>
+                <span class="method-start">51273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.Login.OrangeHrmLoginValidCredentials())</span>
+                <span class="method-start">51563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrangeHrmLoginValidCredentials</span>
+                <span class="method-start">55945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=OrangeHrmLoginValidCredentials status=SUCCESS method=Login.OrangeHrmLoginValidCrede...)</span>
+                <span class="method-start">58564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58874 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.com.orangehrm.AddEmployeePIM</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AddEmployeePIM.addNewEmployee())</span>
+                <span class="method-start">58935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginforaddNewEmployee</span>
+                <span class="method-start">63248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployee</span>
+                <span class="method-start">67071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addNewEmployee status=SUCCESS method=AddEmployeePIM.addNewEmployee()[pri:1, instanc...)</span>
+                <span class="method-start">73355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AddEmployeePIM.ViewEmployeedetails())</span>
+                <span class="method-start">73667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginforaddNewEmployee</span>
+                <span class="method-start">77990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ViewEmployeedetails</span>
+                <span class="method-start">81670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ViewEmployeedetails status=SUCCESS method=AddEmployeePIM.ViewEmployeedetails()[pri:...)</span>
+                <span class="method-start">83144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AddEmployeePIM.addEmployeWithInValidCharecters() throws java...)</span>
+                <span class="method-start">83412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginforaddNewEmployee</span>
+                <span class="method-start">87764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addEmployeWithInValidCharecters</span>
+                <span class="method-start">91353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addEmployeWithInValidCharecters status=FAILURE method=AddEmployeePIM.addEmployeWith...)</span>
+                <span class="method-start">98643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AddEmployeePIM.EditEmployee() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">100719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginforaddNewEmployee</span>
+                <span class="method-start">105055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditEmployee</span>
+                <span class="method-start">108725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EditEmployee status=SUCCESS method=AddEmployeePIM.EditEmployee()[pri:4, instance:co...)</span>
+                <span class="method-start">113337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AddEmployeePIM.ValidateEditEmployeeWithSpecialCharecter() th...)</span>
+                <span class="method-start">113601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginforaddNewEmployee</span>
+                <span class="method-start">115942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidateEditEmployeeWithSpecialCharecter</span>
+                <span class="method-start">121668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ValidateEditEmployeeWithSpecialCharecter status=FAILURE method=AddEmployeePIM.Valid...)</span>
+                <span class="method-start">126308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AddEmployeePIM.DeleteEmployee())</span>
+                <span class="method-start">126780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginforaddNewEmployee</span>
+                <span class="method-start">131127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmployee</span>
+                <span class="method-start">135351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=DeleteEmployee status=SUCCESS method=AddEmployeePIM.DeleteEmployee()[pri:6, instanc...)</span>
+                <span class="method-start">137678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">137930 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.com.orangehrm.AdminAssignRoles</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AdminAssignRoles.addNewEmployeeForAdminUserRole())</span>
+                <span class="method-start">137947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginforAssignRoles</span>
+                <span class="method-start">142339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeForAdminUserRole</span>
+                <span class="method-start">143259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addNewEmployeeForAdminUserRole status=SUCCESS method=AdminAssignRoles.addNewEmploye...)</span>
+                <span class="method-start">152386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AdminAssignRoles.AssignandViewRoles())</span>
+                <span class="method-start">152679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginforAssignRoles</span>
+                <span class="method-start">157044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AssignandViewRoles</span>
+                <span class="method-start">157968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AssignandViewRoles status=SUCCESS method=AdminAssignRoles.AssignandViewRoles()[pri:...)</span>
+                <span class="method-start">172652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AdminAssignRoles.EditUserRolewithInvalidCharacters())</span>
+                <span class="method-start">172967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginforAssignRoles</span>
+                <span class="method-start">177518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EditUserRolewithInvalidCharacters</span>
+                <span class="method-start">178422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=EditUserRolewithInvalidCharacters status=FAILURE method=AdminAssignRoles.EditUserRo...)</span>
+                <span class="method-start">190121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AdminAssignRoles.AssignRoleswithSpecialCharectors())</span>
+                <span class="method-start">192608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginforAssignRoles</span>
+                <span class="method-start">196977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AssignRoleswithSpecialCharectors</span>
+                <span class="method-start">197885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AssignRoleswithSpecialCharectors status=FAILURE method=AdminAssignRoles.AssignRoles...)</span>
+                <span class="method-start">209418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211896 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.AdminAssignRoles.DeleteUserRole())</span>
+                <span class="method-start">211898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginforAssignRoles</span>
+                <span class="method-start">216218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteUserRole</span>
+                <span class="method-start">217125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=DeleteUserRole status=SUCCESS method=AdminAssignRoles.DeleteUserRole()[pri:6, insta...)</span>
+                <span class="method-start">223812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224107 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.com.orangehrm.LogOut</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.orangehrm.com.orangehrm.LogOut.Logout())</span>
+                <span class="method-start">224121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginforLogout</span>
+                <span class="method-start">228435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">229303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">232271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">232549 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
