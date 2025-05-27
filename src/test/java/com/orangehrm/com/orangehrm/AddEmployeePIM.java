@@ -82,7 +82,7 @@ public class AddEmployeePIM extends Base{
 	    // Step 2: Wait for the employee to appear in results
 	    wait.until(ExpectedConditions.visibilityOfElementLocated(
 	        By.xpath("//div[text()='First (& Middle) Name']/following::div[normalize-space()='Zara'][1]")));
-	    // Step 3: Click the edit icon
+	    // Step 3: Click the edit icon   
 	    wait.until(ExpectedConditions.elementToBeClickable(
 	        By.xpath("(//i[contains(@class, 'bi-pencil-fill')])[1]"))).click();
 
