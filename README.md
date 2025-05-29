@@ -3,8 +3,7 @@
 This project contains automated test cases for the [OrangeHRM](https://opensource-demo.orangehrmlive.com/) web application using Selenium WebDriver, TestNG and Maven. It also includes performance testing using Apache JMeter. It focuses on validating key functionalities such as Login, Signup, Home page interactions, and Link validations, following best practices in test automation.
 
             Project Description
-
-The purpose of this project is to automate the functional testing of the OrangeHRM system, including features like login, employee management, and leave applications
+OrangeHRM is an open-source HR management tool that offers features like employee management, leave tracking, time and attendance, recruitment, and performance modules. It helps organizations streamline and automate HR tasks efficiently.
 
               Project Highlights
 
